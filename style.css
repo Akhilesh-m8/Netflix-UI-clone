@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 70vw;
+  margin: auto;
+  height: 60px;
+}
+nav img {
+  height: 80px;
+  position: relative;
+  z-index: 15;
+  margin-top: 30px;
+}
+nav button {
+  position: relative;
+  z-index: 15;
+}
+.main {
+  background-image: url(assets/images/IN-en-20260323-TRIFECTA-perspective_0b8c8e4e-71ee-48bd-8_002.jpg);
+  height: 70vh;
+  background-position: center center;
+  background-size: max(1400px, 100vw);
+  background-repeat: no-repeat;
+  position: relative;
+}
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.69;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+.hero {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+  height: calc(100% - 61px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  padding: 0 30px;
+  gap: 10px;
+}
+.hero > :nth-child(1) {
+  font-family: "poppins";
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.line {
+  height: 5px;
+  background-color: rgb(58, 57, 57);
+  margin-top: 0px;
+}
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(135, 135, 135, 0.698);
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn-red {
+  background-color: red;
+  color: white;
+  padding: 3px 23px 5px;
+  font-size: 20px;
+  border-radius: 4px;
+  font-weight: 400;
+}
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.main input {
+  padding: 7px 101px 6px 14px;
+  font-size: 12px;
+  border: 1px solid rgb(155, 148, 148);
+  border-radius: 4px;
+  color: white;
+  background-color: rgba(23, 23, 23, 0.2);
+}
+.btnred-sm {
+  background-color: red;
+  color: white;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 70vw;
+  gap: 100px;
+  margin: auto;
+  color: white;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-weight: bolder;
+}
+iframe {
+  height: 200px;
+  width: 400px;
+}
+.secImg img {
+  height: 200px;
+  width: 400px;
+  border: 2px solid white;
+}
+.faq h2{
+  text-align: center;
+  font-size: 48px;
+}
+.faq{
+  background-color: black;
+  color: white;
+  padding: 34px;
+}
+.faqbox:hover{
+  background-color: rgb(68, 63, 63);
+}
+.faqbox {
+  transition: all 1s ease-out;
+  display: flex;
+  font-size: 24px;
+  justify-content: space-between;
+  background-color: rgb(113, 112, 112);
+  padding: 20px;
+  width: 100vw;
+  max-width: 50vw;
+  margin: 10px auto;
+  cursor: pointer;
+
+}
+footer{
+    color:white ;
+    margin:auto;
+   max-width: 60vw;
+   padding:34px;
+}
+.questions{
+  padding: 34px 0;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  max-width: 60vw;
+   
+}
+.footer-item{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
